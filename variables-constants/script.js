@@ -13,3 +13,20 @@ userName = "Batman";
 console.log(userName); // Output Batman
 console.log(pi); // Output 3.14159
 console.log(gravity); // Output 9.81
+
+
+// Task
+
+const myName = "Hassan";
+const myAge = 31;
+const myHobbies = ["watching football", "coding", "Traveling" ];
+const myProfile = {
+    myName,
+    myAge,
+    myHobbies
+}
+
+console.log(myName)
+console.log(myAge)
+console.log(myHobbies)
+console.log(myProfile)

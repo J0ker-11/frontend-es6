@@ -18,6 +18,21 @@ console.log(multiLineString);
 
 // TENARY OPERATOR WITH TEMPLATE 
 
+const showRecipeOne = true;
+
+function getRecipeOne(recipeName) {
+    return recipeName
+}
+
+function getRecipeTwo(recipeName) {
+    return recipeName
+}
+
+const recipeName = showRecipe ? getRecipeOne('Pancakes') : getRecipeTwo('Woffles');
+console.log(recipeName)
+
+
+
 const showRecipe = false;
 const recipeMessage = `Recipe: ${showRecipe ? '1 cup of sugar, 2 cups of flour' : 'Recipe is hidden'}`;
 

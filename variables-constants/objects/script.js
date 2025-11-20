@@ -33,3 +33,27 @@ for (const key in names) {
 // lastName: Hassan
 // age: 31
 // country: Nigeria
+
+// Task
+const car = {
+  brand: "Toyota",
+  model: "Camry",
+  year: 2020,
+  color: "Black"
+}
+
+const {brand, year} = car;
+console.log(`Car Brand: ${brand}, Year: ${year}`); // Output: Car Brand: Toyota, Year: 2020
+
+// Task 2
+const students = [
+  {name: "Sam", score: 80},
+  {name: "Joy", score: 90},
+  {name: "Mike", score: 70}
+]
+
+console.log(students[1].name)
+
+students.map(student => {
+  console.log(` ${student.score}`)
+})
